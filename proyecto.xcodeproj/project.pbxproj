@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A4C76418F27E8C00EDB2EC /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A4C76318F27E8C00EDB2EC /* EventViewController.m */; };
+		79A4C76618F27FC900EDB2EC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A4C76518F27FC900EDB2EC /* libsqlite3.dylib */; };
+		79A5176D18EF201C0014D963 /* Cell_Carrera.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A5176C18EF201C0014D963 /* Cell_Carrera.m */; };
+		79A5177018EF20F00014D963 /* listaCarrera.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A5176F18EF20F00014D963 /* listaCarrera.m */; };
+		79A5177E18EF59740014D963 /* ingeniero_biotecnologia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A5177D18EF59740014D963 /* ingeniero_biotecnologia.jpg */; };
+		79A5178218EF5A400014D963 /* software.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79A5178118EF5A3F0014D963 /* software.jpeg */; };
+		79A5178418EF5B060014D963 /* mecatronico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A5178318EF5B060014D963 /* mecatronico.jpg */; };
+		79A5178618EF5B0D0014D963 /* alimentos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A5178518EF5B0D0014D963 /* alimentos.jpg */; };
+		79A5178818EF5B310014D963 /* civil.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79A5178718EF5B310014D963 /* civil.jpeg */; };
+		79A5178A18EF5BAE0014D963 /* quimico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 79A5178918EF5BAE0014D963 /* quimico.jpg */; };
+		79A5178D18EF602E0014D963 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A5178C18EF602E0014D963 /* DetailViewController.m */; };
 		79A7747C18EE418F00B3989A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A7747B18EE418F00B3989A /* Foundation.framework */; };
 		79A7747E18EE418F00B3989A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A7747D18EE418F00B3989A /* CoreGraphics.framework */; };
 		79A7748018EE418F00B3989A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A7747F18EE418F00B3989A /* UIKit.framework */; };
@@ -22,6 +33,15 @@
 		79A774A018EE418F00B3989A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A7747F18EE418F00B3989A /* UIKit.framework */; };
 		79A774A818EE418F00B3989A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79A774A618EE418F00B3989A /* InfoPlist.strings */; };
 		79A774AA18EE418F00B3989A /* proyectoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A774A918EE418F00B3989A /* proyectoTests.m */; };
+		79A99DD318F0CEC700241241 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A99DD218F0CEC700241241 /* Social.framework */; };
+		79B9EF4718F3869700A19B7A /* SeeEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B9EF4618F3869700A19B7A /* SeeEventViewController.m */; };
+		79BB742118F4C966007BCD7C /* Cell_EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BB742018F4C966007BCD7C /* Cell_EventCell.m */; };
+		79BB742618F4F743007BCD7C /* Captura (1).PNG in Resources */ = {isa = PBXBuildFile; fileRef = 79BB742418F4F743007BCD7C /* Captura (1).PNG */; };
+		79BB742718F4F743007BCD7C /* Captura2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 79BB742518F4F743007BCD7C /* Captura2.PNG */; };
+		79BB8E2418EFBDF600AB3ACA /* uag.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79BB8E2318EFBDF600AB3ACA /* uag.jpeg */; };
+		79BB8E2718EFC56B00AB3ACA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BB8E2618EFC56B00AB3ACA /* MapViewController.m */; };
+		79BB8E2918EFC60100AB3ACA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BB8E2818EFC60100AB3ACA /* MapKit.framework */; };
+		79BB8E2B18EFCF4D00AB3ACA /* logouag.png in Resources */ = {isa = PBXBuildFile; fileRef = 79BB8E2A18EFCF4D00AB3ACA /* logouag.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +55,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		79A7747818EE418F00B3989A /* proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A4C76218F27E8C00EDB2EC /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		79A4C76318F27E8C00EDB2EC /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		79A4C76518F27FC900EDB2EC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		79A5176B18EF201C0014D963 /* Cell_Carrera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_Carrera.h; sourceTree = "<group>"; };
+		79A5176C18EF201C0014D963 /* Cell_Carrera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_Carrera.m; sourceTree = "<group>"; };
+		79A5176E18EF20F00014D963 /* listaCarrera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listaCarrera.h; sourceTree = "<group>"; };
+		79A5176F18EF20F00014D963 /* listaCarrera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listaCarrera.m; sourceTree = "<group>"; };
+		79A5177D18EF59740014D963 /* ingeniero_biotecnologia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ingeniero_biotecnologia.jpg; path = ../../../Downloads/ingeniero_biotecnologia.jpg; sourceTree = "<group>"; };
+		79A5178118EF5A3F0014D963 /* software.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = software.jpeg; path = ../../../Downloads/software.jpeg; sourceTree = "<group>"; };
+		79A5178318EF5B060014D963 /* mecatronico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mecatronico.jpg; path = ../../../Downloads/mecatronico.jpg; sourceTree = "<group>"; };
+		79A5178518EF5B0D0014D963 /* alimentos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alimentos.jpg; path = ../../../Downloads/alimentos.jpg; sourceTree = "<group>"; };
+		79A5178718EF5B310014D963 /* civil.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = civil.jpeg; path = ../../../Downloads/civil.jpeg; sourceTree = "<group>"; };
+		79A5178918EF5BAE0014D963 /* quimico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = quimico.jpg; path = ../../../Downloads/quimico.jpg; sourceTree = "<group>"; };
+		79A5178B18EF602E0014D963 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		79A5178C18EF602E0014D963 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		79A7747818EE418F00B3989A /* iUAG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iUAG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79A7747B18EE418F00B3989A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		79A7747D18EE418F00B3989A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		79A7747F18EE418F00B3989A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -55,6 +90,18 @@
 		79A774A518EE418F00B3989A /* proyectoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "proyectoTests-Info.plist"; sourceTree = "<group>"; };
 		79A774A718EE418F00B3989A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79A774A918EE418F00B3989A /* proyectoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = proyectoTests.m; sourceTree = "<group>"; };
+		79A99DD218F0CEC700241241 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		79B9EF4518F3869700A19B7A /* SeeEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeeEventViewController.h; sourceTree = "<group>"; };
+		79B9EF4618F3869700A19B7A /* SeeEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeeEventViewController.m; sourceTree = "<group>"; };
+		79BB741F18F4C966007BCD7C /* Cell_EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell_EventCell.h; sourceTree = "<group>"; };
+		79BB742018F4C966007BCD7C /* Cell_EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell_EventCell.m; sourceTree = "<group>"; };
+		79BB742418F4F743007BCD7C /* Captura (1).PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Captura (1).PNG"; path = "../../../Downloads/Captura (1).PNG"; sourceTree = "<group>"; };
+		79BB742518F4F743007BCD7C /* Captura2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Captura2.PNG; path = ../../../Downloads/Captura2.PNG; sourceTree = "<group>"; };
+		79BB8E2318EFBDF600AB3ACA /* uag.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = uag.jpeg; path = ../../../Downloads/uag.jpeg; sourceTree = "<group>"; };
+		79BB8E2518EFC56B00AB3ACA /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		79BB8E2618EFC56B00AB3ACA /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		79BB8E2818EFC60100AB3ACA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		79BB8E2A18EFCF4D00AB3ACA /* logouag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logouag.png; path = ../../../Downloads/logouag.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A4C76618F27FC900EDB2EC /* libsqlite3.dylib in Frameworks */,
+				79A99DD318F0CEC700241241 /* Social.framework in Frameworks */,
+				79BB8E2918EFC60100AB3ACA /* MapKit.framework in Frameworks */,
 				79A7747E18EE418F00B3989A /* CoreGraphics.framework in Frameworks */,
 				79A7748018EE418F00B3989A /* UIKit.framework in Frameworks */,
 				79A7747C18EE418F00B3989A /* Foundation.framework in Frameworks */,
@@ -94,7 +144,7 @@
 		79A7747918EE418F00B3989A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79A7747818EE418F00B3989A /* proyecto.app */,
+				79A7747818EE418F00B3989A /* iUAG.app */,
 				79A7749C18EE418F00B3989A /* proyectoTests.xctest */,
 			);
 			name = Products;
@@ -103,6 +153,9 @@
 		79A7747A18EE418F00B3989A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79A4C76518F27FC900EDB2EC /* libsqlite3.dylib */,
+				79A99DD218F0CEC700241241 /* Social.framework */,
+				79BB8E2818EFC60100AB3ACA /* MapKit.framework */,
 				79A7747B18EE418F00B3989A /* Foundation.framework */,
 				79A7747D18EE418F00B3989A /* CoreGraphics.framework */,
 				79A7747F18EE418F00B3989A /* UIKit.framework */,
@@ -114,9 +167,33 @@
 		79A7748118EE418F00B3989A /* proyecto */ = {
 			isa = PBXGroup;
 			children = (
+				79A5178718EF5B310014D963 /* civil.jpeg */,
+				79A5178118EF5A3F0014D963 /* software.jpeg */,
+				79A5178518EF5B0D0014D963 /* alimentos.jpg */,
+				79A5178318EF5B060014D963 /* mecatronico.jpg */,
+				79A5177D18EF59740014D963 /* ingeniero_biotecnologia.jpg */,
+				79A5178918EF5BAE0014D963 /* quimico.jpg */,
+				79BB8E2318EFBDF600AB3ACA /* uag.jpeg */,
+				79BB8E2A18EFCF4D00AB3ACA /* logouag.png */,
+				79BB742418F4F743007BCD7C /* Captura (1).PNG */,
+				79BB742518F4F743007BCD7C /* Captura2.PNG */,
 				79A7748A18EE418F00B3989A /* AppDelegate.h */,
 				79A7748B18EE418F00B3989A /* AppDelegate.m */,
 				79A7748D18EE418F00B3989A /* Main_iPhone.storyboard */,
+				79A4C76218F27E8C00EDB2EC /* EventViewController.h */,
+				79A4C76318F27E8C00EDB2EC /* EventViewController.m */,
+				79BB8E2518EFC56B00AB3ACA /* MapViewController.h */,
+				79BB8E2618EFC56B00AB3ACA /* MapViewController.m */,
+				79A5176E18EF20F00014D963 /* listaCarrera.h */,
+				79A5176F18EF20F00014D963 /* listaCarrera.m */,
+				79A5178B18EF602E0014D963 /* DetailViewController.h */,
+				79A5178C18EF602E0014D963 /* DetailViewController.m */,
+				79B9EF4518F3869700A19B7A /* SeeEventViewController.h */,
+				79B9EF4618F3869700A19B7A /* SeeEventViewController.m */,
+				79BB741F18F4C966007BCD7C /* Cell_EventCell.h */,
+				79BB742018F4C966007BCD7C /* Cell_EventCell.m */,
+				79A5176B18EF201C0014D963 /* Cell_Carrera.h */,
+				79A5176C18EF201C0014D963 /* Cell_Carrera.m */,
 				79A7749018EE418F00B3989A /* Main_iPad.storyboard */,
 				79A7749318EE418F00B3989A /* ViewController.h */,
 				79A7749418EE418F00B3989A /* ViewController.m */,
@@ -158,9 +235,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79A7747718EE418F00B3989A /* proyecto */ = {
+		79A7747718EE418F00B3989A /* iUAG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79A774AD18EE418F00B3989A /* Build configuration list for PBXNativeTarget "proyecto" */;
+			buildConfigurationList = 79A774AD18EE418F00B3989A /* Build configuration list for PBXNativeTarget "iUAG" */;
 			buildPhases = (
 				79A7747418EE418F00B3989A /* Sources */,
 				79A7747518EE418F00B3989A /* Frameworks */,
@@ -170,9 +247,9 @@
 			);
 			dependencies = (
 			);
-			name = proyecto;
+			name = iUAG;
 			productName = proyecto;
-			productReference = 79A7747818EE418F00B3989A /* proyecto.app */;
+			productReference = 79A7747818EE418F00B3989A /* iUAG.app */;
 			productType = "com.apple.product-type.application";
 		};
 		79A7749B18EE418F00B3989A /* proyectoTests */ = {
@@ -220,7 +297,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79A7747718EE418F00B3989A /* proyecto */,
+				79A7747718EE418F00B3989A /* iUAG */,
 				79A7749B18EE418F00B3989A /* proyectoTests */,
 			);
 		};
@@ -231,8 +308,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BB8E2B18EFCF4D00AB3ACA /* logouag.png in Resources */,
+				79A5178218EF5A400014D963 /* software.jpeg in Resources */,
+				79BB8E2418EFBDF600AB3ACA /* uag.jpeg in Resources */,
+				79A5178A18EF5BAE0014D963 /* quimico.jpg in Resources */,
+				79A5177E18EF59740014D963 /* ingeniero_biotecnologia.jpg in Resources */,
+				79A5178618EF5B0D0014D963 /* alimentos.jpg in Resources */,
 				79A7749218EE418F00B3989A /* Main_iPad.storyboard in Resources */,
+				79BB742718F4F743007BCD7C /* Captura2.PNG in Resources */,
+				79BB742618F4F743007BCD7C /* Captura (1).PNG in Resources */,
+				79A5178818EF5B310014D963 /* civil.jpeg in Resources */,
 				79A7749718EE418F00B3989A /* Images.xcassets in Resources */,
+				79A5178418EF5B060014D963 /* mecatronico.jpg in Resources */,
 				79A7748F18EE418F00B3989A /* Main_iPhone.storyboard in Resources */,
 				79A7748618EE418F00B3989A /* InfoPlist.strings in Resources */,
 			);
@@ -253,9 +340,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BB742118F4C966007BCD7C /* Cell_EventCell.m in Sources */,
+				79A5176D18EF201C0014D963 /* Cell_Carrera.m in Sources */,
+				79A4C76418F27E8C00EDB2EC /* EventViewController.m in Sources */,
+				79A5177018EF20F00014D963 /* listaCarrera.m in Sources */,
+				79B9EF4718F3869700A19B7A /* SeeEventViewController.m in Sources */,
 				79A7749518EE418F00B3989A /* ViewController.m in Sources */,
 				79A7748C18EE418F00B3989A /* AppDelegate.m in Sources */,
 				79A7748818EE418F00B3989A /* main.m in Sources */,
+				79A5178D18EF602E0014D963 /* DetailViewController.m in Sources */,
+				79BB8E2718EFC56B00AB3ACA /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +366,7 @@
 /* Begin PBXTargetDependency section */
 		79A774A218EE418F00B3989A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 79A7747718EE418F00B3989A /* proyecto */;
+			target = 79A7747718EE418F00B3989A /* iUAG */;
 			targetProxy = 79A774A118EE418F00B3989A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -467,13 +561,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79A774AD18EE418F00B3989A /* Build configuration list for PBXNativeTarget "proyecto" */ = {
+		79A774AD18EE418F00B3989A /* Build configuration list for PBXNativeTarget "iUAG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				79A774AE18EE418F00B3989A /* Debug */,
 				79A774AF18EE418F00B3989A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79A774B018EE418F00B3989A /* Build configuration list for PBXNativeTarget "proyectoTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +577,7 @@
 				79A774B218EE418F00B3989A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

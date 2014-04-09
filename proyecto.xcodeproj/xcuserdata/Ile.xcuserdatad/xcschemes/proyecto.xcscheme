@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "79A7747718EE418F00B3989A"
-               BuildableName = "proyecto.app"
-               BlueprintName = "proyecto"
+               BuildableName = "iUAG.app"
+               BlueprintName = "iUAG"
                ReferencedContainer = "container:proyecto.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79A7747718EE418F00B3989A"
-            BuildableName = "proyecto.app"
-            BlueprintName = "proyecto"
+            BuildableName = "iUAG.app"
+            BlueprintName = "iUAG"
             ReferencedContainer = "container:proyecto.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79A7747718EE418F00B3989A"
-            BuildableName = "proyecto.app"
-            BlueprintName = "proyecto"
+            BuildableName = "iUAG.app"
+            BlueprintName = "iUAG"
             ReferencedContainer = "container:proyecto.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "79A7747718EE418F00B3989A"
-            BuildableName = "proyecto.app"
-            BlueprintName = "proyecto"
+            BuildableName = "iUAG.app"
+            BlueprintName = "iUAG"
             ReferencedContainer = "container:proyecto.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

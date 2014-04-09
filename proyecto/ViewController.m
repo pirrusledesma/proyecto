@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "MapViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+    
+}
 
 @end
 
@@ -26,4 +29,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnCarreras:(id)sender {
+}
 @end

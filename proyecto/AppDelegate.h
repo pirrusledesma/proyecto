@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property(copy,readwrite) NSString *nombre;
+
 @end
